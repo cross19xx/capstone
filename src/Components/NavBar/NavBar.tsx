@@ -56,7 +56,9 @@ const NavBar = () => {
       </div>
       <div className="links">
         {links.map((link) => (
-          <Link key={link.id} to={link.path} />
+          <Link key={link.id} to={link.path}>
+            {link.name}
+          </Link>
         ))}
         {isLoggedIn && (
           <button className="signout-button" onClick={signout}>
