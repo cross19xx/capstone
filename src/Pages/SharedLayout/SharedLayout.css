@@ -1,0 +1,16 @@
+/* .layout {
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+body {
+  background-color: rgb(237, 242, 245);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* occupy full viewport height */
+  overflow: auto; /* enable scroll if needed */
+}

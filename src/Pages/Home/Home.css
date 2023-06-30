@@ -1,0 +1,95 @@
+.for-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-align: center;
+  background-image: url('hosp.1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: overlay;
+}
+
+.content {
+  flex: 1 0 auto;
+  overflow: auto;
+  min-height: calc(100vh - 6rem);
+}
+
+.home-head {
+  padding-top: 85px;
+  font-size: 40px;
+}
+
+img {
+  width: 80px;
+}
+
+.highlight {
+  color: rgb(26, 63, 232);
+}
+
+h1 img {
+  margin: 0 10px;
+}
+
+.home-c {
+  font-size: 36px;
+}
+
+.home-p {
+  margin-bottom: 50px;
+}
+
+.home-head {
+  font-size: 40px;
+}
+
+img {
+  width: 80px;
+  /* border-radius: 20px; */
+}
+
+.highlight {
+  color: rgb(26, 63, 232);
+}
+
+h1 img {
+  margin: 0 10px;
+  /* vertical-align: middle; */
+}
+
+.home-c {
+  font-size: 36px;
+  margin-bottom: 70px;
+}
+
+.home-p {
+  margin-top: 50px;
+}
+
+.footer {
+  flex-shrink: 0;
+  display: flex;
+  width: 100%;
+  background-color: rgb(77, 82, 234);
+  padding: 1rem 40px;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-p {
+  color: white;
+  font-size: 12px;
+}

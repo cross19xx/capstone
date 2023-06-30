@@ -1,0 +1,51 @@
+nav {
+  padding: 0.5rem 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: rgb(61, 135, 216);
+  cursor: pointer;
+  background-color: white;
+  border-bottom: 2px solid rgb(239, 239, 249);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(26, 63, 232);
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.logo-name {
+  color: black;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* @media (max-width: 858px){
+    .links{
+        display: none;
+    }
+} */
+
+.signout-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

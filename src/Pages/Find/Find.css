@@ -1,0 +1,64 @@
+.find-content {
+  background-color: rgb(237, 242, 245);
+  width: 100vw;
+  height: 100vh;
+}
+
+.find-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.download-button {
+  color: rgb(26, 63, 232);
+  font-size: 1rem;
+}
+
+.hospital-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.hospital-row {
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hospital-row__text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.hospital-row__title {
+  font-weight: 600;
+}
+
+.hospital-row__address {
+  color: #888888;
+}
+
+.hospital-row__contact {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+
+.hospital-row__contact * {
+  font-size: 0.9rem;
+  color: #666;
+}

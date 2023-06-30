@@ -1,0 +1,59 @@
+.about-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    background-color: rgb(237, 242, 245);
+  }
+  
+  .about-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .self-img {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+  }
+  
+  .self-img1 {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+  }
+  
+  .main-image, .main-image1 {
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .self-text {
+    text-align: justify;
+    padding: 1rem 10rem; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+  .Asection {
+    padding-top: 4rem;
+  }
+  
+  .exclude {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .tag {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+   

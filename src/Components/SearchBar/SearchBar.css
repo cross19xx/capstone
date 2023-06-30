@@ -1,0 +1,40 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  align-items: stretch;
+  border: 2px solid black;
+  padding: 0.5em;
+  position: relative;
+  margin: 20px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  outline: none;
+  text-align: center;
+  flex: 1;
+}
+
+.input-divider {
+  width: 2px;
+  background: black;
+  margin: 0 10px;
+}
+
+.search-button {
+  position: absolute;
+  right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1;
+}
