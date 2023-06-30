@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import SharedLayout from '../Pages/SharedLayout/SharedLayout';
 import About from '../Pages/About/About';
 import Home from '../Pages/Home/Home';
@@ -10,7 +10,7 @@ import Admin from '../Pages/Admin/Admin';
 
 const Content: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route path="/about" element={<About />} />
@@ -21,7 +21,7 @@ const Content: React.FC = () => {
           <Route path="/admin" element={<Admin />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
